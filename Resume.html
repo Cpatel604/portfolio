@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume</title>
+  <style>
+    body {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    header {
+      position: relative;
+      background: #2c3e50;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    h3 {
+      padding-bottom: 15px;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    .column {
+      float: left;
+      width: 25%;
+      height: 100%;
+      padding: 10px;
+      color: white;
+      text-align: center;
+      background-color: #2c3e50;
+      border-right: solid black 3px;
+    }
+
+    .row {
+      height: 100vh;
+    }
+
+    .row:after {
+      display: table;
+      clear: both;
+    }
+
+    #contact {
+      border-bottom: 2px solid white;
+      font-size: 32px;
+      padding-top: 45px;
+    }
+
+    #skills {
+      border-bottom: 2px solid white;
+      font-size: 32px;
+      margin-top: 3rem;
+    }
+
+    #class {
+      text-align: left;
+    }
+
+    .column1 {
+      float: left;
+      width: 72.2%;
+      height: 100%;
+      padding: 10px;
+      color: black;
+      text-align: center;
+      border-top: 3px solid black;
+    }
+
+    ul {
+      list-style-type: circle;
+      text-align: center;
+      padding-left: 35px;
+      padding-top: 10px;
+    }
+
+    .box {
+      background-color: #00bfff;
+      color: white;
+      padding: 8px;
+      border-radius: 8px;
+      text-align: center;
+      flex: 1 1 120px;
+      transition: transform 0.2s ease, background-color 0.2s ease;
+      font-size: 0.875rem;
+    }
+
+    .flexbox {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      padding-top: 10px;
+    }
+
+
+    .box:hover {
+      background-color: #0080ff;
+      transform: scale(1.05);
+    }
+
+    header nav ul li a:hover {
+      color: #333;
+      transition: color 10 s;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin: 0 15px;
+
+    }
+
+    header nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1 style="font-size: 42px">Resume</h1>
+      <h3 style="font-size: 24px">By Corbin P</h3>
+      <nav>
+        <ul>
+          <li><a href="My Portfolio.html">Welcome</a></li>
+          <li><a href="Projects.html">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+  <div class="column">
+    <section>
+      <div id="skills">Skills</div>
+      <div class="flexbox">
+        <div class="box">1 Month Of javaScript</div>
+        <div class="box">6 Months Of Css</div>
+        <div class="box">6 Months of Html</div>
+        <div class="box">1 Year of Visual Effects</div>
+        <div class="box">8 Months Of blender</div>
+        <div class="box">Teamwork</div>
+        <div class="box">Problem Solver</div>
+        <div class="box">Creative</div>
+      </div>
+    </section>
+    <section>
+      <div id="contact">Contact</div>
+      <div class="flexbox">
+        <div class="box">CorbinPatel@outlook.com</div>
+        <div class="box">Phone: 602-517-9148</div>
+      </div>
+    </section>
+  </div>
+  <div class="column1" style="background-color: #ffffff">
+    <h1 style="border-bottom: 2px solid black;">Professional Statement</h1>
+    <P>Passionate and innovative game developer with expertise in creating immersive, engaging experiences across
+      multiple platforms. Skilled in programming, game mechanics design, and problem-solving, with hands-on experience
+      in Unity, Unreal Engine. Eager to contribute creativity and technical skills to a dynamic team focused on building
+      cutting-edge, interactive games.</P>
+    <h1 style="border-bottom: 2px solid black; padding-top: 10px;">Knowledge, Skills, and Abilities:</h1>
+
+    <p>- Time Management — Managing one's own time and the time of others</p>
+    <p>- Active Listening — Giving full attention to what other people are saying, taking time to understand the points
+      being made, asking questions as appropriate, and not interrupting at inappropriate times.</p>
+    <p>- Judgment and Decision Making — Considering the relative costs and benefits of potential actions to choose the
+      most appropriate one.</p>
+    <p>- Critical Thinking — Using logic and reasoning to identify the strengths and weaknesses of alternative
+      solutions, conclusions or approaches to problems.</p>
+    <p>- Monitoring — Monitoring/Assessing performance of yourself, other individuals, or organizations to make
+      improvements or take corrective action.</p>
+    <h1 style="border-bottom: 2px solid black;">Certifications & Licenses:</h1>
+    <p>- Information Technology Specialist OD 301 HTML5 & CSS
+    </p>
+    <p>- Adobe Illustrator Technical Skills Certification
+    </p>
+    <h1 style="border-bottom: 2px solid black;">Education:</h1>
+    <p style="text-align: left;font-weight: bold;">Paradise Honors High School: </p>
+    <p style="text-align: left;">Relevant Coursework: Algebra 1,World History, English 1, Earth And Space Science,
+      Graphic Design 1, Spanish 1, Geometry, English 2, Biology, Graphic Design 2, Engineering 1, Spanish 2, Algebra
+      Honors 2, Chemistry, Us History, English 3, Coding 1. </p>
+    <h1 style="border-bottom: 2px solid black;">Employment & Experience:</h1>
+    <p style="text-align: left; font-weight: bold;">Freddy's Custard And SteakBurgers</p>
+    <p style="text-align: left;">Responsibilities include: Cooking The Food, Cleaning Backend, Temp Check, Food
+      Management.
+    </p>
+  </div>
+  </section>
+  </div>
+</body>
+
+</html>
