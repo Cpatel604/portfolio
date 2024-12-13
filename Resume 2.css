@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.row {
+    height: 100vh;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+.column1 {
+    float: left;
+    width: 75%;
+    height: 100%;
+    padding: 10px;
+    color: royalblue;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+img {
+    margin-top: 5rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+h2 {
+    margin-top: 1rem;
+    border-bottom: 2px solid gainsboro;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+#contact {
+    border-bottom: 2px solid white;
+    font-size: 32px;
+    padding-top: 45px;
+}
+
+#skills {
+    border-bottom: 2px solid white;
+    font-size: 32px;
+    margin-top: 3rem;
+}
+
+
+@media (max-width: 1200px) {
+    .column {
+        width: 33.33%;
+    }
+    .column1 {
+        width: 66.67%;
+    }
+}
+
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+    .column1 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .column, .column1 {
+        width: 100%;
+        height: auto; /
+    }
+    
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #contact, #skills {
+        font-size: 24px; 
+    }
+}
+ul{
+    list-style-type: circle;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px       ;
+    
+}
+#columnmain{
+    margin-left: 2rem;
+}
+p{
+    color: black;
+    padding-bottom: 15px    ;
+
+}
+h4{
+    margin-top: 1rem    ;
+}
+h5{
+    color: royalblue;
+    padding-top: 10px;
+}
+
+
