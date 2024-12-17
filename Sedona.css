@@ -1,0 +1,33 @@
+h1 { 
+    color: coral;
+    text-align: center;
+    font-size: 72px;
+    letter-spacing: 10px;
+}
+u {
+color: coral; .important
+}
+p {
+text-indent: 2;
+text-align: center;
+padding-left: 50px;
+padding-right: 50px;
+color: blue;
+font-size: 32px;
+}
+h2 {
+text-align: center;
+color: coral;
+font-size: 48px;
+}
+ul {
+    list-style-type: square;
+    padding-left: 120px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: blue;
+    }
+li::marker {
+
+    color: brown;
+}
