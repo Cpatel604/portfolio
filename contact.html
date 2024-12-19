@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact
+    </title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        body {
+            font-family: "Arial", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 35px;
+            text-align: center; 
+            height: fit-content;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li a:hover {
+            color: #333;
+            transition: color 10 s;
+        }
+
+        header nav ul li {
+            margin: 15px;
+            
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 55px;
+            
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: right;
+            max-width: 600px;
+            margin: 45px auto;
+
+        }
+
+        form label {
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        form input,
+        form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+
+        form button {
+            background: #2c3e50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        form button:hover {
+            background: royalblue;
+        }
+
+        iframe {
+            width: 250px;
+            height: 250px;
+        }
+
+        #embed-map-canvas img {
+            max-width: none !important;
+            background: none !important;
+            font-size: inherit;
+            font-weight: inherit;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <h3>By Corbin P</h3>
+       <nav>
+        <ul>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="Html resume 2.html">Resume</a></li>
+        </ul>
+       </nav>
+    </header>
+    <section id="box">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required />
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" required />
+
+            <label for="Description">Description:</label>
+            <input type="text" id="text" required />
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" required />
+            <button type="submit">Send</button>
+        </form>
+        <div style="overflow:hidden;max-width:100%;width:500px;height:500px;">
+            <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe
+                    style="height:100%;width:100%;border:0;" frameborder="0"
+                    src="https://www.google.com/maps/embed/v1/place?q=12940+North+145th+ave&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+            </div><a class="google-map-html" href="https://kbj9qpmy.com/hrn" id="get-data-for-embed-map">InMotion
+                Hosting</a>
+        </div>
+    </section>
+</body>
+
+</html>
